@@ -42,7 +42,7 @@ xhost +local:docker && \
         --env="DISPLAY=$DISPLAY" --env="QT_X11_NO_MITSHM=1" \
         --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" --device=/dev/video0  \
         -v $TEXT_RECOGNITION:/root/home/ws \
-        visiont3lab/deep-learning:text_recognition \
+        visiont3lab/deep-learning:all \
         /bin/bash -c "cd /root/home/ws/code/ && python3 demo3.py"
 ```
 
