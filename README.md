@@ -11,16 +11,26 @@ Deep Learning Text recognition based on CRAFT (Character-Region Awareness For Te
 
 ## Setup
 
+### Cloning repo
 ```
-cd $HOME
-git clone https://github.com/visiont3lab/text_recognition.git
+cd $HOME && \
+git clone https://github.com/visiont3lab/text_recognition.git && \
 echo "export TEXT_RECOGNITION=$HOME/text_recognition" >> $HOME/.bashrc && source $HOME/.bashrc
-cd $TEXT_RECOGNITION/code && mkdir -p model && cd model 
+```
 
-wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1gjePriCBUC8TDZbNEicojxfSA5oTGqPK' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1gjePriCBUC8TDZbNEicojxfSA5oTGqPK" -O craft_mlt_25k.pth && rm -rf /tmp/cookies.txt
-
-wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=11TpvsQuJtOeacKrXl4vgEH4VHg4PVRFv' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=11TpvsQuJtOeacKrXl4vgEH4VHg4PVRFv" -O TPS-ResNet-BiLSTM-Attn.pth && rm -rf /tmp/cookies.txt
-
+### Download models
+```
+cd $TEXT_RECOGNITION/code && mkdir -p model && cd model && \
+wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies  \
+    /tmp/cookies.txt --keep-session-cookies --no-check-certificate  \
+    'https://docs.google.com/uc?export=download&id=1gjePriCBUC8TDZbNEicojxfSA5oTGqPK' \
+    -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1gjePriCBUC8TDZbNEicojxfSA5oTGqPK" \
+    -O craft_mlt_25k.pth && rm -rf /tmp/cookies.txt && \
+wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies \
+    /tmp/cookies.txt --keep-session-cookies --no-check-certificate  \
+    'https://docs.google.com/uc?export=download&id=11TpvsQuJtOeacKrXl4vgEH4VHg4PVRFv' \
+    -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=11TpvsQuJtOeacKrXl4vgEH4VHg4PVRFv" \
+    -O TPS-ResNet-BiLSTM-Attn.pth && rm -rf /tmp/cookies.txt
 ```
 
 ## Run
