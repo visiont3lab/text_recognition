@@ -15,6 +15,10 @@ Deep Learning Text recognition based on CRAFT (Character-Region Awareness For Te
 cd $HOME
 git clone https://github.com/visiont3lab/text_recognition.git
 echo "export TEXT_RECOGNITION=$HOME/text_recognition" >> $HOME/.bashrc && source $HOME/.bashrc
+cd $TEXT_RECOGNITION/code && mkdir -p model && cd model 
+wget 
+
+
 ```
 
 ## Run

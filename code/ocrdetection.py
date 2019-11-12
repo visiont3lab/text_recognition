@@ -24,7 +24,7 @@ class OCR:
     def __init__(self):
         
         # model settings #
-        self.path_model= 'models/TPS-ResNet-BiLSTM-Attn.pth'
+        self.path_model= 'model/TPS-ResNet-BiLSTM-Attn.pth'
         self.batch_size = 1
         self.batch_max_length = 25
         self.imgH = 32
