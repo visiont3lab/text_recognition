@@ -44,7 +44,7 @@ RUN /bin/bash -c  "pip3 install numpy \
                     opencv-contrib-python"  
 			
 #------------------ TEXT RECOGNITION REQUIREMENTS 
-RUN /bin/bash -c  "pip3 install torch torchvision"
+RUN /bin/bash -c  "pip3 install torchvision torch scikit-image lmdb natsort"
 
 
 # docker build -t deep-learning:text_recognition .
