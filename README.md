@@ -7,7 +7,7 @@ Deep Learning Text recognition based on CRAFT (Character-Region Awareness For Te
 
 * [Install docker](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-18-04)
 * [Install nvidia-docker2](https://github.com/NVIDIA/nvidia-docker)
-* [Download Models]()
+* [Download Models](https://drive.google.com/drive/folders/1MUZJfJaErK5UHwQAFaf5dHdeQfaJL09-?usp=sharing) Put the two folders (models+model inside text_recognition/code of this repo).
 
 ## Setup
 
