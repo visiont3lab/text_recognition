@@ -1,12 +1,13 @@
 # Text Recognition in Natural Scene Images
 
-
-<img style="display: block;margin-left: auto; margin-right: auto; width: 50%;" width="400" alt="teaser" src="./test.gif">
-
 ## Introduction
 Deep Learning Text recognition based on CRAFT (Character-Region Awareness For Text detection)
 (tested with nvidia GTX 1080 TI)
 
+<p align="center">
+    <img width="400" alt="teaser" src="./test.gif">
+<p align="center">
+    
 ## Requirements
 
 * [Install docker](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-18-04)
