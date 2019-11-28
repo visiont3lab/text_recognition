@@ -1,4 +1,5 @@
-# Text Recognition
+# Text Recognition in Natural Scene Images
+
 
 ## Introduction
 Deep Learning Text recognition based on CRAFT (Character-Region Awareness For Text detection)
