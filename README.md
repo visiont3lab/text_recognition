@@ -1,7 +1,7 @@
 # Text Recognition in Natural Scene Images
 
 
-<img width="1000" alt="teaser" src="./test.gif">
+<img width="400" alt="teaser" src="./test.gif">
 
 ## Introduction
 Deep Learning Text recognition based on CRAFT (Character-Region Awareness For Text detection)
