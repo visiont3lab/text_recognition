@@ -5,6 +5,7 @@
 
 ## Introduction
 Deep Learning Text recognition based on CRAFT (Character-Region Awareness For Text detection)
+(tested with nvidia GTX 1080 TI)
 
 ## Requirements
 
