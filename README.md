@@ -1,4 +1,5 @@
 # Text Recognition in Natural Scene Images
+released by Daniele Grotti
 
 ## Introduction
 Deep Learning Text recognition based on CRAFT (Character-Region Awareness For Text detection)
