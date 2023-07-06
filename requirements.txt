@@ -13,7 +13,7 @@ pyparsing==2.4.5
 python-dateutil==2.8.1
 PyWavelets==1.1.1
 scikit-image==0.16.2
-scipy==1.3.2
+scipy==1.10.0
 six==1.13.0
 style==1.1.0
 torch==1.3.1
